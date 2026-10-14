@@ -1,0 +1,21 @@
+{
+  "company": "Feat systems",
+  "title": "Junior AI/ML Developer (Python)",
+  "description": "Join a small product team as a junior AI/ML developer. Work with Python to clean and analyse data, train and evaluate machine learning models, and help ship them as simple APIs (FastAPI) with senior guidance. Freshers and 0-2 years of experience are welcome; academic and personal projects count. We value strong fundamentals, curiosity and clear communication over advanced theory.",
+  "requirements": [
+    {"id": "R1", "weight": 3, "text": "Python fundamentals: functions, data structures, OOP basics, error handling, writing clean and testable code"},
+    {"id": "R2", "weight": 3, "text": "Machine learning fundamentals: supervised vs unsupervised learning, train/test split, overfitting and underfitting, bias-variance, evaluation metrics (accuracy, precision, recall, F1)"},
+    {"id": "R3", "weight": 2, "text": "Data handling with pandas and NumPy: cleaning, missing values, exploratory analysis, feature engineering, avoiding data leakage"},
+    {"id": "R4", "weight": 2, "text": "Hands-on ML projects with scikit-learn or PyTorch/TensorFlow, and basic awareness of LLM/GenAI concepts (prompting, embeddings, RAG)"},
+    {"id": "R5", "weight": 1, "text": "Basics of serving and shipping models: FastAPI or Flask, Git, Docker, and simple deployment ideas"},
+    {"id": "R6", "weight": 1, "text": "Communication, learning attitude and ownership: explains clearly, handles feedback, learns new tools on their own"}
+  ],
+  "rules": [
+    "This is a JUNIOR role: test fundamentals and practical understanding, not senior-level system design or research theory.",
+    "Accept college, internship, Kaggle and personal projects as real experience; ask what the candidate personally did.",
+    "Hard questions must still be junior-appropriate, for example: a model has 99 percent training accuracy but poor test accuracy, what would you check; or how would you spot data leakage.",
+    "Ask for concrete examples, numbers and simple explanations in plain words; probe vague answers once.",
+    "Keep the tone friendly, patient and encouraging; do not argue or teach during the interview.",
+    "If the candidate asks about salary, selection status or company policy, say the hiring team will follow up."
+  ]
+}

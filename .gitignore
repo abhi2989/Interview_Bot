@@ -1,0 +1,11 @@
+
+venv/
+__pycache__/
+*.pyc
+.env
+data/auth.json
+data/auth.json.bak
+data/client_secret.json
+data/token.json
+data/resume.txt
+output/
