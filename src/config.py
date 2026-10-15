@@ -1,4 +1,3 @@
-
 import os
 from dotenv import load_dotenv
 load_dotenv()
@@ -15,7 +14,8 @@ LANG = e("INTERVIEW_LANGUAGE", "en-IN")                        # TTS language fo
 BOT_NAME = e("BOT_NAME", "Aria (AI Interviewer)")
 MAX_QUESTIONS = int(e("MAX_QUESTIONS", "8")); MAX_MINUTES = int(e("MAX_MINUTES", "20"))
 SILENCE_MS = int(e("END_OF_TURN_SILENCE_MS", "800")); MIN_SPEECH_MS = int(e("MIN_SPEECH_MS", "250"))
-STORAGE_STATE = e("GOOGLE_STORAGE_STATE", "data/auth.json")
+PROFILE_DIR = e("PROFILE_DIR", "data/profile")         # signed-in browser profile made by:  docker run ... interview-bot --login
+AUTO_ADMIT = e("AUTO_ADMIT", "1") == "1"                # bot admits people who knock (works when the bot account is the meeting host)
 # --- candidate invitations ---
 MEET_ACCESS = e("MEET_ACCESS", "OPEN")                         # OPEN = anyone with the link joins without knocking
 WAIT_MINUTES = int(e("WAIT_MINUTES", "20"))                    # how long the bot waits for the candidate
